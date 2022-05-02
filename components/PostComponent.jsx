@@ -24,8 +24,8 @@ export const PostComponent = () => {
         <>
             <div className="posts">
                 {post.map((post, index) => (
-                    <Link href={`/articulo/${index+1}`}>
-                        <div className="post" key={index}>
+                    <Link key={index} href={`/articulo/${index+1}`}>
+                        <div className="post" >
                             <div className="post-image">
                                 <img src={`./img/img${index + 1}.png`} alt="" />
                             </div>
