@@ -16,7 +16,7 @@ class MyDocument extends Document {
                     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css" />
                     <meta property="og:title" content="Literatura y realidad" />
                     <meta property="og:description" content="Literatura salvadoreña" />
-                    <meta property="og:image" content={`${origin}/img/banner.jpg`} />
+                    <meta property="og:image" content={`${origin}/img/banner.png`} />
                 </Head>
                 <body>
                     <Main />
