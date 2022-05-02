@@ -18,11 +18,11 @@ export const Nabvar = ({ pageInfo }) => {
     return (
         <header>
             <div ref={openBtn} onClick={showMenu} className="menu-button">
-                <i class="fa-regular fa-bars"></i>
+                <i className="fa-regular fa-bars"></i>
             </div>
             <nav ref={menuRef} className="hide-menu">
                 <div className="close" onClick={hideMenu} ref={closeBtn}>
-                    <i class="fa-regular fa-xmark"></i>
+                    <i className="fa-regular fa-xmark"></i>
                 </div>
                 <ul>
                     <li>
@@ -46,4 +46,5 @@ export const Nabvar = ({ pageInfo }) => {
             </div>
         </header>
     );
+    
 };

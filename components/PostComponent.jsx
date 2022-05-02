@@ -25,7 +25,7 @@ export const PostComponent = () => {
             <div className="posts">
                 {post.map((post, index) => (
                     <Link href={`/articulo/${index+1}`}>
-                        <div className="post">
+                        <div className="post" key={index}>
                             <div className="post-image">
                                 <img src={`./img/img${index + 1}.png`} alt="" />
                             </div>
@@ -35,7 +35,7 @@ export const PostComponent = () => {
                             <div className="post-footer">
                                 <p className="post-tag">{post.tag}</p>
                                 <p className="date">
-                                    <i class="fa-light fa-calendar-days"></i>{" "}
+                                    <i className="fa-light fa-calendar-days"></i>{" "}
                                     {post.date}
                                 </p>
                             </div>
