@@ -31,7 +31,7 @@ export const SampleComponent = () => {
                                 <img src={`../img/sample${index + 1}.png`} alt="" />
                             </div>
                             <div className="post-title">
-                                <p>"{post.title}"</p>
+                                <p>&quot;{post.title}&ldquo;</p>
                             </div>
                             <div className="post-footer">
                                 <p className="date">
