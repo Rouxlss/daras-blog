@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 export const PostComponent = () => {
+    
     const [post, setPost] = useState([
         {
             title: "Reseña sobre la evolución de la literatura salvadoreña",
