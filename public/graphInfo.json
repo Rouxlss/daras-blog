@@ -1,47 +1,47 @@
 [
     {
         "question": "¿Cuál es una característica de la literatura salvadoreña?",
-        "img": "../img/form/1.png",
+        "img": "../img/1.png",
         "info": "Reseña sobre la evolución de la literatura salvadoreña"
     },
     {
         "question": "¿Qué autor no es salvadoreño?",
-        "img": "../img/form/2.png",
+        "img": "../img/2.png",
         "info": "Encuesta: ¿Cuánto conoces de la literatura salvadoreña?"
     },
     {
         "question": "\"Cuentos de Cipotes\" fue escrito por:",
-        "img": "../img/form/3.png",
+        "img": "../img/3.png",
         "info": "Muestras literarias"
     },
     {
         "question": "Escribe el nombre del texto literario salvadoreño que más te guste." ,
-        "img": "../img/form/4.png",
+        "img": "../img/4.png",
         "info": "Muestras literarias"
     },
     {
         "question": "¿Quién escribió \"Jícaras Tristes\"?" ,
-        "img": "../img/form/5.png",
+        "img": "../img/5.png",
         "info": "Muestras literarias"
     },
     {
         "question": "¿En qué siglo empezó a consolidarse la literatura salvadoreña como tal?" ,
-        "img": "../img/form/6.png",
+        "img": "../img/6.png",
         "info": "Reseña sobre la evolución de la literatura salvadoreña"
     },
     {
         "question": "¿Cuál es el seudónimo de Margarita del Carmen Brannon Vega?" ,
-        "img": "../img/form/8.png",
+        "img": "../img/8.png",
         "info": "Encuesta: ¿Cuánto conoces de la literatura salvadoreña?"
     },
     {
         "question": "¿Quién fue el autor de la novela \"Pobrecito poeta que era yo...\"?",
-        "img": "../img/form/9.png",
+        "img": "../img/9.png",
         "info": "Muestras literarias"
     },
     {
         "question": "¿Cuál de estos temas cree usted que no ha tenido la importancia necesaria en la literatura salvadoreña?" ,
-        "img": "../img/form/10.png",
+        "img": "../img/10.png",
         "info": "Muestras literarias"
     }
 ]
