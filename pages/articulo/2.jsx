@@ -48,7 +48,7 @@ const Articulo2 = () => {
                     salvadoreña los y las habitantes de El Salvador.
                 </p>
                 <div className="link">
-                    <i class="fa-solid fa-link"></i> Link de la encuesta:{" "}
+                    <i className="fa-solid fa-link"></i> Link de la encuesta:{" "}
                     <a
                         target="_blank"
                         href="https://forms.gle/jUt6aJkC4NbgBunU8"
