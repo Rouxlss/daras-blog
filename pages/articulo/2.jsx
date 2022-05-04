@@ -51,6 +51,7 @@ const Articulo2 = () => {
                     <i className="fa-solid fa-link"></i> Link de la encuesta:{" "}
                     <a
                         target="_blank"
+                        rel="noopener noreferrer"
                         href="https://forms.gle/jUt6aJkC4NbgBunU8"
                     >
                         https://forms.gle/jUt6aJkC4NbgBunU8
