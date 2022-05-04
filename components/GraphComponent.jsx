@@ -11,6 +11,7 @@ export const GraphComponent = ({ data }) => {
                 <div className="graph-img">
                     <img src={img} alt="" />
                 </div>
+                <h4>Análisis:</h4>
                 <div className="graph-info">
                     <p>{info}</p>
                 </div>

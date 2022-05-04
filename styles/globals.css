@@ -239,7 +239,7 @@ header .banner img {
 }
 
 .answers-component {
-    width: 80%;
+    width: 100%;
     margin: auto;
     border-bottom: 1px solid rgb(190, 190, 190);
     display: flex;
@@ -254,6 +254,9 @@ header .banner img {
     width: 70%;
     height: 350px;
     overflow-y: scroll;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(240, 240, 240);
 }
 
 .answers-answers ul li {
@@ -267,6 +270,18 @@ header .banner img {
 
 .graph-question, .answers-question {
     font-weight: bold;
+}
+
+.fuentes {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: #5c50cc;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 600px) {
