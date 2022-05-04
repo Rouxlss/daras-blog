@@ -155,7 +155,7 @@ header .banner img {
 .post-title {
     width: 100%;
     height: 100px;
-    background: #281f79ec;
+    background: #281f79ad;
     position: absolute;
     bottom: 0;
     display: flex;
@@ -165,7 +165,7 @@ header .banner img {
 }
 
 .post:hover .post-title {
-    background: #281f79;
+    background: #281f79c0;
     height: 200px;
 }
 

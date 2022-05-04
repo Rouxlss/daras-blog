@@ -1,23 +1,23 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-export const PostComponent = () => {
+export const SampleComponent = () => {
     
     const [post, setPost] = useState([
         {
-            title: "Reseña sobre la evolución de la literatura salvadoreña",
-            date: "04-05-2020",
-            tag: "Literatura",
+            title: "El silencio amargo",
+            date: "Mónica Roxana Rodríguez Henríquez",
+            tag: "Poema",
         },
         {
-            title: "Encuesta: ¿Cuánto conoces de la literatura salvadoreña?",
-            date: "04-05-2020",
-            tag: "Encuesta",
+            title: "Flores sin nombre",
+            date: "Dara Heliana Rodríguez Villacorta",
+            tag: "Poema",
         },
         {
-            title: "Muestras literarias",
-            date: "04-05-2020",
-            tag: "Literatura",
+            title: "No es amor, es maltrato",
+            date: "Karla Linet Solano Mejía",
+            tag: "Poema",
         },
     ]);
 
@@ -25,18 +25,16 @@ export const PostComponent = () => {
         <>
             <div className="posts">
                 {post.map((post, index) => (
-                    <Link key={index} href={`/articulo/${index+1}`}>
+                    <Link key={index} href={`/muestra/${index+1}`}>
                         <div className="post" >
                             <div className="post-image">
-                                <img src={`./img/img${index + 1}.png`} alt="" />
+                                <img src={`../img/sample${index + 1}.png`} alt="" />
                             </div>
                             <div className="post-title">
-                                <p>{post.title}</p>
+                                <p>"{post.title}"</p>
                             </div>
                             <div className="post-footer">
-                                <p className="post-tag">{post.tag}</p>
                                 <p className="date">
-                                    <i className="fa-light fa-calendar-days"></i>{" "}
                                     {post.date}
                                 </p>
                             </div>

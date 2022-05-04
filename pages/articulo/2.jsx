@@ -7,7 +7,7 @@ import { AnswersComponent } from "../../components/AnswersComponent";
 const Articulo2 = () => {
     const pageInfo = {
         title: `"Encuesta: ¿Cuánto conoces de la literatura salvadoreña?"`,
-        subtitle: "05-02-2020",
+        subtitle: "05-04-2020",
         img: "../img/img2.png",
     };
     // get data from json file with fetch
